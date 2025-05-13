@@ -12,3 +12,109 @@ html {
 img {
   max-width: 100%;
 }
+
+.section-title {
+  font-size: x-large;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dt {
+  width: 20%;
+  margin-left: 20px;
+  padding: 10px 0;
+  border-bottom: dotted 1px #9a9595;
+}
+
+dd {
+  width: 60%;
+  padding: 10px 0;
+  padding-right: 30px;
+  border-bottom: dotted 1px #9a9595;
+}
+
+#main .flex {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.flex .mainvisual {
+  width: 50%;
+}
+
+.flex .mainvisual img {
+  width: 100%;
+  object-fit: cover;
+  height: 1000px;
+}
+
+.flex .profile {
+  background-color: #ececec;
+  padding-top: 60px;
+  padding-left: 120px;
+  width: 50%;
+}
+
+.profile .name {
+  font-size: xx-large;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.profile p {
+  padding-top: 3px;
+}
+
+.profile .introduction {
+  margin: 40px 0;
+}
+
+.profile .content1,
+.content2,
+.content3,
+.content4 {
+  margin-bottom: 40px;
+}
+
+.content3 ul {
+  margin-left: 30px;
+}
+
+.content3 li {
+  list-style: circle;
+  margin-bottom: 10px;
+}
+
+.content4 p {
+  color: #e62626;
+  font-weight: 800;
+  font-size: xx-large;
+  margin-left: 40px;
+  margin-right: 45px;
+  border: outset 5px;
+  text-align: center;
+}
+
+
+.sns {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.sns a {
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+#footer {
+  text-align: center;
+  height: 80px;
+  padding: 35px 0;
+  color: white;
+  background-color: #625f5f;
+}
